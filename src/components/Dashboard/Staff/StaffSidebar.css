@@ -1,0 +1,47 @@
+.sidebarArea {
+    flex-shrink: 0;
+    width: 260px;
+    background: linear-gradient(104.24deg, #000066 22.75%, #0D6EFD 168.68%)!important; 
+    min-height: 100vh;
+  }
+
+  .sidebarActive{
+    background-color: #4b4bc1;
+    color: #fff!important;
+
+  }
+
+  .sidenav-bg:hover a { 
+    background-color: #fff; 
+    color: #000066!important;
+    border-radius: 0.3rem;
+  } 
+
+  .logoutBtn { 
+    color: #fff!important;
+    margin-top: 8.5rem;
+  }
+  .less-than-symbol {
+    background-color: #fff;
+    width: 3rem;
+    border-radius: 50%;
+    height: 3rem;
+    position: absolute;
+    
+  }
+
+
+  
+  @media (max-width: 1200px) {
+        .sidebarArea {
+          position: fixed;
+          height: 100vh;
+          overflow: auto;
+          z-index: 1;
+          margin-left: -260px;
+          transition: 0.2s ease-in;
+    }
+    .showSidebar {
+        margin-left: 0px;
+      }
+    }

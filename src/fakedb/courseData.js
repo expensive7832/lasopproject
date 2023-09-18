@@ -7,6 +7,7 @@ const data = [
         dpt1: `Product Design `,
 
         dpt2: "(UI/UX  & PRODUCT LIFECYCLE)",
+        slug: 'productdesign',
         bannerText: `Learn design thinking, wireframes, interactive prototyping, Figma, and more, and
         complete hands-on projects. Learn Essential UX Design Skills Led by Experienced
         Design Leaders UX Designers craft exceptional experiences within digital products,
@@ -88,6 +89,7 @@ const data = [
         slug: "frontend",
         dpt1: "Frontend",
         dpt2: "Development",
+        slug: 'frontendweb',
         bannerText: `Learn Web Development Skills Live, Led by Experienced Technology Leaders
         Having a strong online presence is essential to nearly every business. In this
         course, learn to create beautiful, responsive websites by mastering the building
@@ -145,6 +147,7 @@ const data = [
         slug: "fullstack",
         dpt1: "Fullstack",
         dpt2: "Development",
+        slug: 'fullstackweb',
         bannerText: `Learn to create professional, and responsive web apps using HTML,
         CSS, Bootstrap, JavaScript, JQuery, React, Python, Django & SQL.
         Understand GIT and GITHUBS, APIS and HOSTINGS
@@ -202,6 +205,7 @@ const data = [
         slug: "backend",
         dpt1: "Backend",
         dpt2: "Development",
+        slug: 'backendweb',
         bannerText: "In this course, you will be thought Python, and its fullstack framework Django. If your interested in becoming a Python backend developer or Node and Express .NET if your interest is to become a Nodejs developer.",
         bannerBtn:[
             {text: "Ojodu-Berger", icon: <GoLocation/>},
@@ -251,6 +255,7 @@ const data = [
         slug: "mobile",
         dpt1: "Mobile App",
         dpt2: "Development",
+        slug: 'mobileappdev',
         bannerText: `In this program, you are going to have access to step-by-step classes with a qualified
         tutor, interactive coding exercises, quizzes, and much more! By the end of this course,
         you will be a full-fledged flutter developer, by mastering things like declarative
@@ -299,6 +304,7 @@ const data = [
         slug: "data-science",
         dpt1: "Data Science And AI",
         dpt2: "Development",
+        slug: 'datascience',
         bannerText: "LASOP’s Data Science course can be considered an intermediate-level data science course, as it dives into prescriptive and predictive analytics, machine learning, artificial intelligence, statistical analysis, and programming languages.",
         bannerBtn:[
             {text: "Ojodu-Berger", icon: <GoLocation/>},
@@ -350,6 +356,7 @@ const data = [
         slug: "data-analytics",
         dpt1: "Data Analytics",
         dpt2: "Development",
+        slug: 'dataanalytics',
         bannerText: `Data Analytics involves the process of cleaning, changing, and processing raw
         data and extracting actionable & relevant information that helps businesses make
         informed decisions. The procedure helps reduce the risks inherent in decision-making

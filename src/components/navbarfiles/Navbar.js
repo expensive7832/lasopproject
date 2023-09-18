@@ -91,18 +91,19 @@ function Navbar() {
                 <DropdownToggle className='fw-bold' caret>Courses</DropdownToggle>
                
                <DropdownMenu  className='menu'>
-                  <div className="d-flex flex-wrap  ">
-                    <Link className='nav-link w-50' to={`/product-design`}>Product  Design</Link>
-                    <Link className='nav-link w-50' to={`/frontend`}>Frontend</Link>
-                    <Link className='nav-link w-50' to={`/fullstack`}>FullStack</Link>
-                    <Link className='nav-link w-50' to={`/backend`}>Backend</Link>
+
+                  <div className="d-flex flex-wrap">
+                    <Link className='nav-link w-50' to={"/productdesign"}>Product Design</Link>
+                    <Link className='nav-link w-50' to={"/frontendweb"}>Frontend</Link>
+                    <Link className='nav-link w-50' to={"/fullstackweb"}>FullStack</Link>
+                    <Link className='nav-link w-50' to={"/backendweb"}>Backend</Link>
 
 
 
-                    <Link className='nav-link w-50' to={`/mobile`}>Mobile  App</Link>
-                    <Link className='nav-link w-50' to={`/data-science`}>Data   Science & AI</Link>
-                    <Link className='nav-link w-50' to={`/data-analytics`}>Data Analytics</Link>
-
+                    <Link className='nav-link w-50' to={"/mobileappdev"}>Mobile  App</Link>
+                    <Link className='nav-link w-50' to={"/datascience"}>Data   Science & AI</Link>
+                    <Link className='nav-link w-50' to={"/dataanalytics"}>Data Analytics</Link>
+ 
                   </div>
                 </DropdownMenu>
                

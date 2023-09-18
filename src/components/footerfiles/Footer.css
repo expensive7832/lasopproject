@@ -20,8 +20,17 @@
     /* padding-right: 20px; */
 }
 
+.map.active {
+    display: block;
+}
 
+.map {
+    display: none;
+}
 
+.para {
+    cursor: pointer;
+}
 
 
 

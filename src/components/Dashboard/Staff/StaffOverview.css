@@ -1,0 +1,177 @@
+.overviewArea {
+    width: 100%;
+    background-color: #fff;
+    /* min-height: 100vh; */
+}
+
+.topLine {
+    width: 100%;
+    border-width: .05rem;
+    border-color: #5c8feeda;
+    border-style: solid;
+}
+
+.bottomLine {
+    width: 100%;
+    border-width: .05rem;
+    border-color: #5c8feeda;
+    border-style: solid;
+}
+
+.overviewHeader h1 {
+   margin-left: 4rem;
+}
+
+.overviewHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.overviewTextDate {
+    height: 100%;
+    margin-block: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 36%;
+}
+
+
+
+.datePicker input {
+    height: 100% ;
+    border-radius: .2rem;
+    border-width: 2px;
+    border-color: #433d3d54;
+    border-style: solid;
+    width: 40%;
+}
+
+.createBtn {
+    background-color: #000066!important;
+    color: #fff!important;
+    width: 20%;
+    height: 100%;
+    padding: 1.2rem;
+    margin-bottom: .2rem;
+    margin-right: 2rem;
+
+}
+
+.createBtn span {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.overviewStatistics {
+    display: flex;
+    justify-content: space-around;
+}
+
+.overviewCard {
+    border-radius: 1rem;
+    border-color: rgba(172, 156, 135, 0.551);
+    border-style: solid;
+    width: 17%;
+    padding: 1rem;
+}
+
+.overviewBody {
+    height: 100vh;
+}
+
+.valueIcon h2 {
+    color: #000066;
+    
+}
+
+.valueIcon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.overviewCardContent {
+    padding: 2rem;
+    width: 20%;
+    background-color: #fff;
+    border-radius: 2.2rem;
+    border-width: .2px;
+    border-style: solid;
+    border-color: rgb(216, 205, 188);
+}
+
+.overviewStatistics {
+    margin-top: 1.4rem;
+}
+
+.taskManagement{
+    display: flex;
+    flex-direction: column;
+    border-radius: 2.2rem;
+    border-width: .2px;
+    border-style: solid;
+    padding: 1.2rem;
+    margin-top: 1.4rem;
+    margin-inline: 4rem;
+
+    /* margin-top: 2rem; */
+    width: 44%;
+    /* height: 100%; */
+    border-color: rgba(172, 156, 135, 0.551);;
+}
+
+.taskManagementHeader {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.taskDetails:hover {
+    cursor: pointer;
+    background-color: rgba(124, 137, 160, 0.853)
+}
+
+.taskAttendance {
+    display: flex;
+    justify-content: space-between;
+    border-color: rgba(172, 156, 135, 0.551);
+}
+
+/* .taskManagementIcon {
+    width: 12%;
+    height: 15%;
+} */
+
+.attendanceTracking {
+    width: 44%;
+    margin-top: 1.4rem;
+    border-radius: 2.2rem;
+    border-width: .2px;
+    border-style: solid;
+    padding: 1.2rem;
+    border-color: rgba(172, 156, 135, 0.551);
+    margin-inline: 4rem;
+}
+
+.attendanceHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.attendanceHeader select {
+    border-radius: .3rem;
+    width: 20%;
+    border-color: rgba(172, 156, 135, 0.551);
+}
+
+.taskDetails {
+    border-width: .1px;
+    border-style: inherit;
+    border-color: rgb(216, 205, 188);
+    border-radius: 0.7rem;
+    margin-bottom: 1rem;
+    background-color: #d5dcefb3;
+    width: 100%;
+    margin-inline: auto;
+    padding: .2rem;
+}

@@ -77,6 +77,7 @@ const Layout = () => {
 
  
 
+
   function Oops(){
     toast.error("Oops! you need to pay to access the dashboard")
    setTimeout(() =>{
@@ -84,6 +85,7 @@ const Layout = () => {
     navigate("/signup")
    }, 1000)
   }
+
 
   return (
   
@@ -112,7 +114,10 @@ const Layout = () => {
 
  :
 
+
+
  user?.info?.paymentstatus === 1?
+
 
  <main className="" >
  <div className="pageWrapper d-lg-flex">
@@ -133,14 +138,14 @@ const Layout = () => {
  </div>
 </main>
 
-:
+// :
 
-<Oops/>
-
- 
+  <Oops/> 
 
  
-}
+
+ 
+{/* } */}
    
  
 
