@@ -1,0 +1,43 @@
+.messageAreaBody {
+    display: flex;
+}
+
+.messagePreview {
+    width: 35%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    text-align: center;
+    max-height: 100vh;
+}
+
+.messagePreviewHeader span {
+    color: rgba(47, 68, 211, 0.896);
+}
+
+.messageDetails {
+    width: 55%;
+}
+
+.messageDetailsInactive {
+    display: none;
+}
+
+.noMessagesInactive {
+    display: block;
+}
+
+.noMessagesInactive {
+    display: none;
+}
+
+.senderStatus {
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.previewStatus p {
+    background-color: rgba(11, 59, 232, 0.642);
+    border-radius: .7rem;
+    width: 3rem;
+}

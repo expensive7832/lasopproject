@@ -1,0 +1,60 @@
+.queryAreaBody {
+    display: flex;
+
+}
+
+.queryAreaHeader {
+    padding: 1.0rem;
+}
+
+.queryPreview {
+    width: 35%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    text-align: center;
+    max-height: 100vh;
+}
+
+.queryPreviewHeader {
+    text-align: center;
+}
+
+.queryPreviewHeader span{
+    color: #3878c6fb;
+}
+
+.queryPreviewItems {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.queryDetails-inactive {
+    display: none;
+}
+
+.queryPreviewItems:hover {
+    background-color: #b7b7ef;
+    cursor: pointer;
+}
+
+.selected {
+    display: block;
+}
+
+.selected-inactive {
+    display: none;
+}
+
+.queryDetails {
+    width: 65%;
+}
+
+.titleSender p {
+    color: #000066;
+}
+
+.senderStatus {
+    width: 45%;
+    display: flex;
+}
